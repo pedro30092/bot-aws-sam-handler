@@ -29,6 +29,4 @@ jobs:
           sam deploy \
             --no-confirm-changeset \
             --no-fail-on-empty-changeset \
-            --stack-name bots-aws-sam-handler \
-            --s3-bucket "${{ secrets.S3_BUCKET }}" \
             --capabilities CAPABILITY_IAM
